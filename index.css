@@ -1,0 +1,52 @@
+
+nav{
+  background-color: #dae6de;
+  padding: 2%;
+  margin:-1%;
+  background-size: cover;
+  justify-content:center;
+
+}
+.font{
+  font: bolder;
+  color: blue;
+}
+.nav_dis{
+  display: inline;
+}
+section{
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -3%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.column {
+  float: left;
+  width: 48%;
+  padding: 0 10px;
+}
+.column1 {
+  float: left;
+  width: 48%;
+  padding: 0 10px;
+}
+.row {margin: 0px 40px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
